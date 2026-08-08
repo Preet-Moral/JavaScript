@@ -22,3 +22,23 @@ const myfunc=function(){
 }
 
 console.log(typeof myfunc)
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// There are 2 types of memory.
+// 1. stack(Primitive) and 2. Heap (Non Primitive)
+let ytname="preetmoral"
+let newytname=ytname
+newytname="DJ"
+console.log(ytname);
+console.log(newytname);
+
+let obj={
+    name:"preet",
+    age:21
+}
+let obj12=obj;
+obj12.name="Peter"
+console.log(obj.name);
+console.log(obj12.name);
