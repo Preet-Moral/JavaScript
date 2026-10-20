@@ -23,7 +23,8 @@ console.log(naya);
 const obj="   P  r   e   e   t"
 console.log(obj);
 console.log(obj.trim());
-
+//The .trim() method in JavaScript removes whitespace (spaces, tabs, and newline characters)
+//from both the beginning and the end of a string.
 const naam = "misssipi"
 console.log(naam.replaceAll('i','x'));
 console.log(naam.includes("pi"))
