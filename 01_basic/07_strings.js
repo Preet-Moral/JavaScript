@@ -31,4 +31,4 @@ console.log(naam.includes("pi"))
 // tell whether a element is present or not 
 
 console.log(name.split(' '))
-// splits when find te required character 
+// splits when find the required character 
